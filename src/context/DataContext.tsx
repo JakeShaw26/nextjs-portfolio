@@ -1,6 +1,6 @@
 import React, { createContext } from "react";
-import developmentData from "../Json/development-plan.json";
-import experienceData from "../Json/experience.json";
+import developmentData from "../../public/json/development-plan.json";
+import experienceData from "../../public/json/experience.json";
 
 const DataContext = createContext({
   developmentPlanData: developmentData.developmentPlan,
