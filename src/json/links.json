@@ -1,0 +1,9 @@
+{
+  "links": [
+    { "text": "About Me", "endpoint": "/about-me", "key": 1 },
+    { "text": "Career Growth", "endpoint": "/career-growth", "key": 2 },
+    { "text": "Experience", "endpoint": "/experience", "key": 3 },
+    { "text": "Github", "endpoint": "/github", "key": 4 },
+    { "text": "Home", "endpoint": "/", "key": 5 }
+  ]
+}
