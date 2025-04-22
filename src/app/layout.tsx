@@ -31,7 +31,9 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <div className="ml-64 p-4 flex-1">{children}</div>
+        <div className="ml-64 flex flex-1 h-screen overflow-hidden bg-blue-200">
+          {children}
+        </div>
       </body>
     </html>
   );
