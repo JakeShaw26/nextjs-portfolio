@@ -1,0 +1,101 @@
+{
+  "experience": [
+    {
+      "employer": "AND Digital",
+      "startDate": "June 2022",
+      "endDate": "Currently Employed",
+      "roles": [
+        {
+          "roleName": "Associate Developer",
+          "isCurrentRole": false,
+          "key": 1002
+        },
+        {
+          "roleName": "Product Developer",
+          "isCurrentRole": true,
+          "key": 1003
+        }
+      ],
+      "skillsUsed": [
+        {
+          "skill": "Javascript",
+          "proficiency": "Advanced",
+          "key": 103
+        },
+        {
+          "skill": "React",
+          "proficiency": "Intermediate",
+          "key": 104
+        },
+        {
+          "skill": "NextJs",
+          "proficiency": "Intermediate",
+          "key": 105
+        },
+        {
+          "skill": "Tailwind CSS / SaSS / SCSS",
+          "proficiency": "Intermediate",
+          "key": 106
+        },
+        {
+          "skill": "Git - version control",
+          "proficiency": "Intermediate",
+          "key": 107
+        },
+        {
+          "skill": "Gherkin",
+          "proficiency": "Intermediate",
+          "key": 108
+        },
+        {
+          "skill": "Cypress",
+          "proficiency": "Intermediate",
+          "key": 109
+        },
+        {
+          "skill": "Automation Testing",
+          "proficiency": "Intermediate",
+          "key": 110
+        }
+      ],
+      "description": "Risen from Associate Developer to Product Developer, clients include likes of TravelChapter and JLR.",
+      "key": 101
+    },
+    {
+      "employer": "CloudM",
+      "startDate": "June 2022",
+      "endDate": "Currently Employed",
+      "roles": [
+        {
+          "roleName": "Intern Web Developer",
+          "isCurrentRole": false,
+          "key": 1001
+        }
+      ],
+      "skillsUsed": [
+        {
+          "skill": "Javascript",
+          "proficiency": "Beginner",
+          "key": 111
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "Beginner",
+          "key": 112
+        },
+        {
+          "skill": "CMS",
+          "proficiency": "Beginner",
+          "key": 113
+        },
+        {
+          "skill": "Git - version control",
+          "proficiency": "Beginner",
+          "key": 114
+        }
+      ],
+      "description": "Intern web developer, assisted team to create a new UI for the knowledge base.",
+      "key": 102
+    }
+  ]
+}
