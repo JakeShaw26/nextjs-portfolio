@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import data from "../Json/links.json";
+import data from "../../public/json/links.json";
 import Links from "@/types/links";
 
 export const Navbar = () => {
