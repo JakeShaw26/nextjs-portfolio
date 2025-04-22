@@ -1,0 +1,242 @@
+{
+  "developmentPlan": [
+    {
+      "title": "Deepen React Knowledge",
+      "objective": "Master advanced React patterns and techniques.",
+      "topics": [
+        {
+          "title": "Advanced React Hooks",
+          "key": 11
+        },
+        {
+          "title": "Context API and custom hooks",
+          "key": 12
+        },
+        {
+          "title": "Performance optimization in React",
+          "key": 13
+        },
+        {
+          "title": "React Testing Library for unit testing",
+          "key": 14
+        }
+      ],
+      "resources": [
+        {
+          "title": "Advanced React",
+          "URL": "https://www.linkedin.com/learning/advanced-react",
+          "key": 1
+        }
+      ],
+      "key": 15
+    },
+    {
+      "title": "Learn Node.js for Backend Development",
+      "objective": "Understand server-side JavaScript using Node.js.",
+      "topics": [
+        {
+          "title": "Setting up a Node.js server",
+          "key": 21
+        },
+        {
+          "title": "Express.js framework for building APIs",
+          "key": 22
+        },
+        {
+          "title": "Middleware and routing",
+          "key": 23
+        },
+        {
+          "title": "Asynchronous programming with Promises and async/await",
+          "key": 24
+        }
+      ],
+      "resources": [
+        {
+          "title": "Learning Node.js",
+          "URL": "https://www.linkedin.com/learning/learning-node-js",
+          "key": 27
+        }
+      ],
+      "key": 26
+    },
+    {
+      "title": "Database Management",
+      "objective": "Gain proficiency in handling databases.",
+      "topics": [
+        {
+          "title": "SQL vs NoSQL databases",
+          "key": 35
+        },
+        {
+          "title": "MongoDB for NoSQL",
+          "key": 37
+        },
+        {
+          "title": "PostgreSQL/MySQL for SQL",
+          "key": 38
+        },
+        {
+          "title": "Mongoose ORM for MongoDB",
+          "key": 33
+        }
+      ],
+      "resources": [
+        {
+          "title": "MongoDB University",
+          "URL": "https://university.mongodb.com/",
+          "key": 32
+        },
+        {
+          "title": "Learning SQL Programming",
+          "URL": "https://www.linkedin.com/learning/learning-sql-programming",
+          "key": 31
+        }
+      ],
+      "key": 30
+    },
+    {
+      "title": "RESTful API Design and GraphQL",
+      "objective": "Design and implement APIs effectively.",
+      "topics": [
+        {
+          "title": "REST principles and best practices",
+          "key": 41
+        },
+        {
+          "title": "Building RESTful APIs with Express.js",
+          "key": 42
+        },
+        {
+          "title": "Introduction to GraphQL",
+          "key": 43
+        },
+        {
+          "title": "Apollo Client for integrating GraphQL with React",
+          "key": 44
+        }
+      ],
+      "resources": [
+        {
+          "title": "Building RESTful APIs with Node.js and Express",
+          "URL": "https://www.linkedin.com/learning/building-restful-apis-with-node-js-and-express",
+          "key": 45
+        },
+        {
+          "title": "Learning GraphQL",
+          "URL": "https://www.linkedin.com/learning/learning-graphql",
+          "key": 46
+        }
+      ],
+      "key": 47
+    },
+    {
+      "title": "Version Control and Collaboration",
+      "objective": "Enhance collaboration skills using Git and GitHub.",
+      "topics": [
+        {
+          "title": "Git basics: commits, branches, merges",
+          "key": 51
+        },
+        {
+          "title": "Pull requests and code reviews",
+          "key": 52
+        },
+        {
+          "title": "Managing repositories on GitHub",
+          "key": 53
+        }
+      ],
+      "resources": [
+        {
+          "title": "Git Essential Training",
+          "URL": "https://www.linkedin.com/learning/git-essential-training",
+          "key": 54
+        }
+      ],
+      "key": 55
+    },
+    {
+      "title": "DevOps Basics",
+      "objective": "Understand deployment and continuous integration.",
+      "topics": [
+        {
+          "title": "Docker for containerization",
+          "key": 65
+        },
+        {
+          "title": "CI/CD pipelines with GitHub Actions or Jenkins",
+          "key": 64
+        },
+        {
+          "title": "Deployment on cloud platforms like AWS or Heroku",
+          "key": 63
+        }
+      ],
+      "resources": [
+        {
+          "title": "Docker Essential Training",
+          "URL": "https://www.linkedin.com/learning/docker-essential-training",
+          "key": 62
+        }
+      ],
+      "key": 61
+    },
+    {
+      "title": "Design Patterns and Best Practices",
+      "objective": "Apply software design patterns effectively.",
+      "topics": [
+        {
+          "title": "MVC architecture",
+          "key": 71
+        },
+        {
+          "title": "Singleton, Observer, and Factory patterns",
+          "key": 7
+        },
+        {
+          "title": "SOLID principles",
+          "key": 72
+        },
+        {
+          "title": "State management in React with Redux or Context API",
+          "key": 73
+        }
+      ],
+      "resources": [
+        {
+          "title": "Programming Foundations: Design Patterns",
+          "URL": "https://www.linkedin.com/learning/programming-foundations-design-patterns",
+          "key": 7
+        }
+      ],
+      "key": 7
+    },
+    {
+      "title": "Build Projects and Portfolio",
+      "objective": "Apply knowledge by building full-stack applications.",
+      "topics": [
+        {
+          "title": "Develop a personal project using MERN stack (MongoDB, Express.js, React, Node.js)",
+          "key": 84
+        },
+        {
+          "title": "Contribute to open-source projects on GitHub",
+          "key": 86
+        },
+        {
+          "title": "Create a portfolio showcasing projects",
+          "key": 87
+        }
+      ],
+      "resources": [
+        {
+          "title": "Building a Full-Stack App with React and Express",
+          "URL": "https://www.linkedin.com/learning/building-a-full-stack-app-with-react-and-express",
+          "key": 88
+        }
+      ],
+      "key": 89
+    }
+  ]
+}
