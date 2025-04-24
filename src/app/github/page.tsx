@@ -12,29 +12,28 @@ export default function Contact() {
 
   useEffect(() => {
     const fetchProfile = async () => {
+      setIsLoading(true);
+      setError("");
+
       try {
         const data = await getGitHubProfile("JakeShaw26");
         setProfile(data);
-      } catch (error) {
-        setError(`There was an error loading the profile - ${error}`);
-        console.error("Error fetching GitHub profile:", error);
+      } catch (err) {
+        setError(`There was an error loading the profile - ${err}`);
+        console.error("Error fetching GitHub profile:", err);
+      } finally {
+        setIsLoading(false);
       }
     };
 
-    setIsLoading(true);
     fetchProfile();
-    setIsLoading(false);
   }, []);
 
   return (
     <div className="flex w-full justify-center">
       {isLoading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      {profile ? (
-        <GitHubProfile profile={profile} />
-      ) : (
-        !isLoading && !error && <p>Failed to pull profile data.</p>
-      )}
+      {profile && <GitHubProfile profile={profile} />}
     </div>
   );
 }
