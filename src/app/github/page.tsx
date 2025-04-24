@@ -3,7 +3,7 @@
 import getGitHubProfile from "@/functions/getGithubProfile";
 import GithubProfile from "@/types/github-profile";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import { GitHubProfile } from "@/components/GitHubProfile";
 
 export default function Contact() {
   const [profile, setProfile] = useState<GithubProfile>();
@@ -21,20 +21,13 @@ export default function Contact() {
     fetchProfile();
   }, []);
 
-  console.log(profile);
-
   return (
-    <div className="flex">
-      <main className="">
-        {profile && (
-          <Image
-            src={profile.avatar_url}
-            width={100}
-            height={100}
-            alt="github profile picture"
-          />
-        )}
-      </main>
+    <div className="flex w-full justify-center">
+      {profile ? (
+        <GitHubProfile profile={profile} />
+      ) : (
+        <p>Failed to pull profile data.</p>
+      )}
     </div>
   );
 }

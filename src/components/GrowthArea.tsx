@@ -1,4 +1,4 @@
-import DevelopmentPlanSection from "@/types/growthArea";
+import DevelopmentPlanSection from "@/types/growth-area";
 import Link from "next/link";
 
 export const GrowthArea = ({ area }: { area: DevelopmentPlanSection }) => {
