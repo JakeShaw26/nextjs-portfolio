@@ -21,7 +21,9 @@ export default function Contact() {
       }
     };
 
+    setIsLoading(true);
     fetchProfile();
+    setIsLoading(false);
   }, []);
 
   return (
