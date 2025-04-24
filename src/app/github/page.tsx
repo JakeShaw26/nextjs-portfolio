@@ -7,6 +7,8 @@ import { GitHubProfile } from "@/components/GitHubProfile";
 
 export default function Contact() {
   const [profile, setProfile] = useState<GithubProfile>();
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string>("");
 
   useEffect(() => {
     const fetchProfile = async () => {
@@ -14,6 +16,7 @@ export default function Contact() {
         const data = await getGitHubProfile("JakeShaw26");
         setProfile(data);
       } catch (error) {
+        setError(`There was an error loading the profile - ${error}`);
         console.error("Error fetching GitHub profile:", error);
       }
     };
@@ -23,10 +26,12 @@ export default function Contact() {
 
   return (
     <div className="flex w-full justify-center">
+      {isLoading && <p>Loading...</p>}
+      {error && <p>{error}</p>}
       {profile ? (
         <GitHubProfile profile={profile} />
       ) : (
-        <p>Failed to pull profile data.</p>
+        !isLoading && !error && <p>Failed to pull profile data.</p>
       )}
     </div>
   );
