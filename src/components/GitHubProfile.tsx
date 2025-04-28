@@ -25,14 +25,15 @@ export const GitHubProfile = ({ profile }: { profile: GithubProfile }) => {
       </div>
       <div className="flex flex-col p-2">
         <Link
-          href={profile.repos_url}
+          href="/github/repositories"
           className="hover:text-purple-600 cursor-pointer"
         >
-          Click here for available repos
+          All Repos
         </Link>
         <Link
-          href={profile.url}
+          href={profile.html_url}
           className="hover:text-purple-600 cursor-pointer"
+          target="_blank"
         >
           Click here for full profile
         </Link>
