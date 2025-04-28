@@ -13,6 +13,7 @@ export const Navbar = () => {
   return (
     <div className="flex">
       <nav className="fixed top-0 left-0 w-64 h-full bg-gray-800 text-white overflow-y-auto">
+        {/* add about here */}
         <ul className="flex flex-col p-4">
           {links.map((link) => {
             return (
