@@ -1,11 +1,11 @@
 "use client";
 
-import getGitHubProfile from "@/functions/getGithubProfile";
+import { getGitHubProfile } from "@/functions/github-functions";
 import GithubProfile from "@/types/github-profile";
 import { useEffect, useState } from "react";
 import { GitHubProfile } from "@/components/GitHubProfile";
 
-export default function Contact() {
+export default function GitHub() {
   const [profile, setProfile] = useState<GithubProfile>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>("");
