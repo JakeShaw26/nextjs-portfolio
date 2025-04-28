@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 import developmentData from "../../public/json/development-plan.json";
 import experienceData from "../../public/json/experience.json";
 import aboutData from "../../public/json/about.json";
